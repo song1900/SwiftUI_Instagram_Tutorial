@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  SearchView.swift
 //  InstagramTutorial
 //
 //  Created by 송우진 on 2021/07/02.
@@ -7,14 +7,14 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct SearchView: View {
     var body: some View {
-        MainTabView()
+        Text("Search")
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct SearchView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        SearchView()
     }
 }
