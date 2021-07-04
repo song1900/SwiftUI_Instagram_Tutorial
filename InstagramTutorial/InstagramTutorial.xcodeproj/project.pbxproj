@@ -18,6 +18,7 @@
 		326BCDCB268F27CA00CB22B4 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326BCDCA268F27CA00CB22B4 /* ProfileView.swift */; };
 		326BCDCD268F27D900CB22B4 /* UploadPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326BCDCC268F27D900CB22B4 /* UploadPostView.swift */; };
 		F6C582ED26901F2F008D0435 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C582EC26901F2F008D0435 /* FeedCell.swift */; };
+		F6C582EF2691E8FC008D0435 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C582EE2691E8FC008D0435 /* SearchBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		326BCDCA268F27CA00CB22B4 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		326BCDCC268F27D900CB22B4 /* UploadPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPostView.swift; sourceTree = "<group>"; };
 		F6C582EC26901F2F008D0435 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		F6C582EE2691E8FC008D0435 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -202,6 +204,7 @@
 			isa = PBXGroup;
 			children = (
 				326BCDC6268F27AE00CB22B4 /* SearchView.swift */,
+				F6C582EE2691E8FC008D0435 /* SearchBar.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -310,6 +313,7 @@
 				326BCDC3268F274B00CB22B4 /* MainTabView.swift in Sources */,
 				326BCDCD268F27D900CB22B4 /* UploadPostView.swift in Sources */,
 				326BCDCB268F27CA00CB22B4 /* ProfileView.swift in Sources */,
+				F6C582EF2691E8FC008D0435 /* SearchBar.swift in Sources */,
 				326BCDC9268F27BA00CB22B4 /* NotificationsView.swift in Sources */,
 				F6C582ED26901F2F008D0435 /* FeedCell.swift in Sources */,
 			);
