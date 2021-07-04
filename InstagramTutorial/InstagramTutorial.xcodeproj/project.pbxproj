@@ -19,6 +19,7 @@
 		326BCDCD268F27D900CB22B4 /* UploadPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326BCDCC268F27D900CB22B4 /* UploadPostView.swift */; };
 		F6C582ED26901F2F008D0435 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C582EC26901F2F008D0435 /* FeedCell.swift */; };
 		F6C582EF2691E8FC008D0435 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C582EE2691E8FC008D0435 /* SearchBar.swift */; };
+		F6C582F12691F21B008D0435 /* PostGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C582F02691F21B008D0435 /* PostGridView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		326BCDCC268F27D900CB22B4 /* UploadPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPostView.swift; sourceTree = "<group>"; };
 		F6C582EC26901F2F008D0435 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		F6C582EE2691E8FC008D0435 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		F6C582F02691F21B008D0435 /* PostGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PostGridView.swift; path = InstagramTutorial/View/Search/PostGridView.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,6 +198,7 @@
 		326BCDBB268F25B900CB22B4 /* Items */ = {
 			isa = PBXGroup;
 			children = (
+				F6C582F02691F21B008D0435 /* PostGridView.swift */,
 			);
 			path = Items;
 			sourceTree = "<group>";
@@ -308,6 +311,7 @@
 			files = (
 				326BCDC7268F27AE00CB22B4 /* SearchView.swift in Sources */,
 				326BCDC5268F278800CB22B4 /* FeedView.swift in Sources */,
+				F6C582F12691F21B008D0435 /* PostGridView.swift in Sources */,
 				326BCDB4268F256900CB22B4 /* ContentView.swift in Sources */,
 				326BCD9F268F242700CB22B4 /* InstagramTutorialApp.swift in Sources */,
 				326BCDC3268F274B00CB22B4 /* MainTabView.swift in Sources */,
