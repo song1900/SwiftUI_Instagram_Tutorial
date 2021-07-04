@@ -20,6 +20,8 @@
 		F6C582ED26901F2F008D0435 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C582EC26901F2F008D0435 /* FeedCell.swift */; };
 		F6C582EF2691E8FC008D0435 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C582EE2691E8FC008D0435 /* SearchBar.swift */; };
 		F6C582F12691F21B008D0435 /* PostGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C582F02691F21B008D0435 /* PostGridView.swift */; };
+		F6C582F42691F525008D0435 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C582F32691F525008D0435 /* UserCell.swift */; };
+		F6C582F62691F534008D0435 /* UserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C582F52691F534008D0435 /* UserListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		F6C582EC26901F2F008D0435 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		F6C582EE2691E8FC008D0435 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		F6C582F02691F21B008D0435 /* PostGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PostGridView.swift; path = InstagramTutorial/View/Items/PostGridView.swift; sourceTree = SOURCE_ROOT; };
+		F6C582F32691F525008D0435 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		F6C582F52691F534008D0435 /* UserListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -236,6 +240,8 @@
 			isa = PBXGroup;
 			children = (
 				F6C582F02691F21B008D0435 /* PostGridView.swift */,
+				F6C582F32691F525008D0435 /* UserCell.swift */,
+				F6C582F52691F534008D0435 /* UserListView.swift */,
 			);
 			path = Items;
 			sourceTree = "<group>";
@@ -317,9 +323,11 @@
 				326BCDC3268F274B00CB22B4 /* MainTabView.swift in Sources */,
 				326BCDCD268F27D900CB22B4 /* UploadPostView.swift in Sources */,
 				326BCDCB268F27CA00CB22B4 /* ProfileView.swift in Sources */,
+				F6C582F42691F525008D0435 /* UserCell.swift in Sources */,
 				F6C582EF2691E8FC008D0435 /* SearchBar.swift in Sources */,
 				326BCDC9268F27BA00CB22B4 /* NotificationsView.swift in Sources */,
 				F6C582ED26901F2F008D0435 /* FeedCell.swift in Sources */,
+				F6C582F62691F534008D0435 /* UserListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
