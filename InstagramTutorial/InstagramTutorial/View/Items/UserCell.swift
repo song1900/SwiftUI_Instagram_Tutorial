@@ -29,7 +29,6 @@ struct UserCell: View {
             
             Spacer()
             
-            
         }
     }
 }
