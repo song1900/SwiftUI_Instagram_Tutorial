@@ -22,9 +22,9 @@ struct ProfileHeaderView: View {
                 
                 
                 HStack(spacing: 16) {
-                    UserStackView()
-                    UserStackView()
-                    UserStackView()
+                    UserStatView(value: 1, title: "Post")
+                    UserStatView(value: 2, title: "Followers")
+                    UserStatView(value: 4, title: "Following")
                 }.padding(.trailing, 32)
                 
             }
@@ -33,7 +33,7 @@ struct ProfileHeaderView: View {
                 .font(.system(size: 15, weight: .semibold))
                 .padding([.leading, .top])
             
-            Text("Gotham's Dark Knight | Billionaire")
+            Text("Gotham's Dark Knight || Billionaire")
                 .font(.system(size: 15))
                 .padding(.leading)
                 .padding(.top, 1)
@@ -41,34 +41,12 @@ struct ProfileHeaderView: View {
             HStack {
                 Spacer()
                 
-                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
-                    Text("Edit Profile")
-                        .font(.system(size: 14, weight: .semibold))
-                        .frame(width: 360, height: 32)
-                        .foregroundColor(.black)
-                        .overlay(
-                            RoundedRectangle(cornerRadius: 3)
-                                .stroke(Color.gray, lineWidth: 1)
-                        )
-                })
+                ProfileActionButtonView()
                 
                 Spacer()
             }.padding(.top)
             
         }
-    }
-}
-
-struct UserStackView: View {
-    var body: some View{
-        VStack {
-            Text("2")
-                .font(.system(size: 15, weight: .semibold))
-            
-            Text("Followers")
-                .font(.system(size: 15))
-        }
-//        .frame(width: 80, alignment: .center)
     }
 }
 
