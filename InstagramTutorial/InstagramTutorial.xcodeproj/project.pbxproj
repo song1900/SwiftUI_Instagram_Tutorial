@@ -23,6 +23,8 @@
 		F69956E2269B2898000AA8B5 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69956E1269B2898000AA8B5 /* LoginView.swift */; };
 		F69956E5269B28CD000AA8B5 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69956E4269B28CD000AA8B5 /* RegistrationView.swift */; };
 		F69956E9269B28F0000AA8B5 /* ResetPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69956E8269B28F0000AA8B5 /* ResetPasswordView.swift */; };
+		F69956EB269B2D56000AA8B5 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69956EA269B2D56000AA8B5 /* CustomTextField.swift */; };
+		F69956ED269B2D6A000AA8B5 /* CustomSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69956EC269B2D6A000AA8B5 /* CustomSecureField.swift */; };
 		F6A122542699788700669D73 /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A122532699788700669D73 /* ProfileHeaderView.swift */; };
 		F6A122562699B0E900669D73 /* UserStatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A122552699B0E900669D73 /* UserStatView.swift */; };
 		F6A122582699C58B00669D73 /* ProfileActionButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A122572699C58B00669D73 /* ProfileActionButtonView.swift */; };
@@ -52,6 +54,8 @@
 		F69956E1269B2898000AA8B5 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginView.swift; path = InstagramTutorial/View/Authentication/LoginView.swift; sourceTree = SOURCE_ROOT; };
 		F69956E4269B28CD000AA8B5 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
 		F69956E8269B28F0000AA8B5 /* ResetPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordView.swift; sourceTree = "<group>"; };
+		F69956EA269B2D56000AA8B5 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		F69956EC269B2D6A000AA8B5 /* CustomSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSecureField.swift; sourceTree = "<group>"; };
 		F6A122532699788700669D73 /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
 		F6A122552699B0E900669D73 /* UserStatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatView.swift; sourceTree = "<group>"; };
 		F6A122572699C58B00669D73 /* ProfileActionButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileActionButtonView.swift; sourceTree = "<group>"; };
@@ -118,6 +122,8 @@
 			children = (
 				326BCE40269471BA00CB22B4 /* Extensions.swift */,
 				F69956DF269ACE86000AA8B5 /* ImagePicker.swift */,
+				F69956EA269B2D56000AA8B5 /* CustomTextField.swift */,
+				F69956EC269B2D6A000AA8B5 /* CustomSecureField.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -346,6 +352,7 @@
 				326BCDC5268F278800CB22B4 /* FeedView.swift in Sources */,
 				F6C582F12691F21B008D0435 /* PostGridView.swift in Sources */,
 				F69956E5269B28CD000AA8B5 /* RegistrationView.swift in Sources */,
+				F69956EB269B2D56000AA8B5 /* CustomTextField.swift in Sources */,
 				326BCDB4268F256900CB22B4 /* ContentView.swift in Sources */,
 				326BCD9F268F242700CB22B4 /* InstagramTutorialApp.swift in Sources */,
 				326BCDC3268F274B00CB22B4 /* MainTabView.swift in Sources */,
@@ -357,6 +364,7 @@
 				F6A122562699B0E900669D73 /* UserStatView.swift in Sources */,
 				F6C582F42691F525008D0435 /* UserCell.swift in Sources */,
 				F6C582EF2691E8FC008D0435 /* SearchBar.swift in Sources */,
+				F69956ED269B2D6A000AA8B5 /* CustomSecureField.swift in Sources */,
 				326BCDC9268F27BA00CB22B4 /* NotificationsView.swift in Sources */,
 				F6C582ED26901F2F008D0435 /* FeedCell.swift in Sources */,
 				F6A122582699C58B00669D73 /* ProfileActionButtonView.swift in Sources */,

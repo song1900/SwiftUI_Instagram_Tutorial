@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct LoginView: View {
+    @State private var email = ""
+    @State private var password = ""
+    
     var body: some View {
         NavigationView {
             ZStack {
@@ -21,8 +24,20 @@ struct LoginView: View {
                     
                     
                     // email field
+                    CustomTextField(text: $email, placeholder: Text("Email"), imageName: "envelope")
+                        .padding()
+                        .background(Color(.init(white: 1, alpha: 0.15)))
+                        .cornerRadius(10)
+                        .foregroundColor(.white)
+                        .padding(.horizontal, 32)
                     
                     // password field
+                    CustomSecureField(text: $password, placeholder: Text("Passowrd"))
+                        .padding()
+                        .background(Color(.init(white: 1, alpha: 0.15)))
+                        .cornerRadius(10)
+                        .foregroundColor(.white)
+                        .padding(.horizontal, 32)
                     
                     // forgot password
                     
