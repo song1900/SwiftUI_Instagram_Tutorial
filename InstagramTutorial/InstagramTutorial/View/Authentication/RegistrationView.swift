@@ -12,6 +12,9 @@ struct RegistrationView: View {
     @State private var fullname = ""
     @State private var username = ""
     @State private var password = ""
+    @State private var selectedImage: UIImage?
+    @State private var image: Image?
+    @State var imagePickerPresented = false
     @Environment(\.presentationMode) var mode
     
     var body: some View {
@@ -20,15 +23,28 @@ struct RegistrationView: View {
                 .ignoresSafeArea()
             
             VStack {
-                Button(action: {
-                    
-                }, label: {
-                    Text("+\nPhoto")
-                        .font(.system(size: 45, weight: .bold))
-                        .foregroundColor(.white)
-                        .multilineTextAlignment(.center)
-                }).padding()
-                
+                ZStack {
+                    if let image = image {
+                        image
+                            .resizable()
+                            .scaledToFill()
+                            .frame(width: 140, height: 140)
+                            .clipShape(Circle())
+
+                        
+                    } else {
+                        Button(action: {
+                            imagePickerPresented.toggle()
+                        }, label: {
+                            Text("+\nPhoto")
+                                .font(.system(size: 45, weight: .bold))
+                                .foregroundColor(.white)
+                                .multilineTextAlignment(.center)
+                        }).sheet(isPresented: $imagePickerPresented, onDismiss: loadImage, content: {
+                            ImagePicker(image: $selectedImage)
+                        })
+                    }
+                }
                 
                 VStack(spacing: 20) {
 
@@ -61,7 +77,6 @@ struct RegistrationView: View {
                         .padding(.horizontal, 32)
                     
                 }
-
                 
                 Button(action: {}, label: {
                     Text("Sign in")
@@ -88,10 +103,20 @@ struct RegistrationView: View {
                             .font(.system(size: 14, weight: .semibold))
                     }.foregroundColor(.white)
                 })
-            
+                
             }
+
             
         }
+            
+    }
+    
+}
+
+extension RegistrationView {
+    func loadImage() {
+        guard let selectedImage = selectedImage else { return }
+        image = Image(uiImage: selectedImage)
     }
 }
 
