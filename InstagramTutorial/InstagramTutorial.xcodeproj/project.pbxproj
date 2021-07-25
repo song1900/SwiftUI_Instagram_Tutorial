@@ -110,9 +110,9 @@
 		326BCD9D268F242700CB22B4 /* InstagramTutorial */ = {
 			isa = PBXGroup;
 			children = (
-				F621308C26AD630F008E7214 /* ViewModel */,
 				326BCDB1268F250600CB22B4 /* Model */,
 				326BCDB0268F250500CB22B4 /* View */,
+				F621308C26AD630F008E7214 /* ViewModel */,
 				326BCDAE268F250100CB22B4 /* API */,
 				326BCDAD268F24F400CB22B4 /* Utils */,
 				326BCD9E268F242700CB22B4 /* InstagramTutorialApp.swift */,
